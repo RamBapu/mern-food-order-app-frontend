@@ -65,7 +65,7 @@ export const useCreateUser = () => {
   }
 
   const {
-    mutateAsync: createUser,
+    mutate: createUser,
     isLoading,
     isError,
     isSuccess,
@@ -102,7 +102,7 @@ export const useUpdateUser = () => {
   }
 
   const {
-    mutateAsync: updateUser,
+    mutate: updateUser,
     isLoading,
     isSuccess,
     isError,
